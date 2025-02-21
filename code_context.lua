@@ -1,6 +1,6 @@
 local plenary = require("plenary")
 local job = require("plenary.job")
-
+-- save this at ~/.config/nvim/lua/code_context.lua
 -- Get current buffer content
 local function get_buffer_content()
     local lines = vim.api.nvim_buf_get_lines(0, 0, -1, false)
